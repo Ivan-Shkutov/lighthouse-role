@@ -11,19 +11,19 @@
 
 3. Создайте авторизационный токен для клонирования репозитория.
 
-![0](https://github.com/Ivan-Sh89/devops-netology/blob/main/0.png)
+![1](https://github.com/Ivan-Shkutov/devops-netology/blob/main/1.png)
+
+![2](https://github.com/Ivan-Shkutov/devops-netology/blob/main/2.png)
 
 4. Склонируйте репозиторий, используя протокол HTTPS (git clone ...).
-
-![1](https://github.com/Ivan-Sh89/devops-netology/blob/main/1.png)
 
 5. Перейдите в каталог с клоном репозитория (cd devops-netology).
 
 6. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (git config --global user.name и git config --global user.email johndoe@example.com).
 
-7. Выполните команду git status и запомните результат.
+![3](https://github.com/Ivan-Shkutov/devops-netology/blob/main/3.png)
 
-![2](https://github.com/Ivan-Sh89/devops-netology/blob/main/2.png)
+7. Выполните команду git status и запомните результат.
 
 8. Отредактируйте файл README.md любым удобным способом, тем самым переведя файл в состояние Modified.
 
@@ -35,26 +35,26 @@
 
 12. И ещё раз выполните команды git diff и git diff --staged. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают.
 
-![3](https://github.com/Ivan-Sh89/devops-netology/blob/main/3.png)
+![4](https://github.com/Ivan-Shkutov/devops-netology/blob/main/4.png)
 
 13. Теперь можно сделать коммит git commit -m 'First commit'.
 
 14. И ещё раз посмотреть выводы команд git status, git diff и git diff --staged.
 
-![4](https://github.com/Ivan-Sh89/devops-netology/blob/main/4.png)
+![5](https://github.com/Ivan-Shkutov/devops-netology/blob/main/5.png)
     
 
 ## Создание файлов .gitignore и второго коммита
 
 1. Создайте файл .gitignore (обратите внимание на точку в начале файла), проверьте его статус сразу после создания.
 
-![5](https://github.com/Ivan-Sh89/devops-netology/blob/main/5.png)
-
 2. Добавьте файл .gitignore в следующий коммит (git add...).
 
-![6](https://github.com/Ivan-Sh89/devops-netology/blob/main/6.png)
-
 3. На одном из следующих блоков вы будете изучать Terraform, давайте сразу создадим соотвествующий каталог terraform и внутри этого каталога — файл .gitignore по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.
+
+![6](https://github.com/Ivan-Shkutov/devops-netology/blob/main/4.png)
+
+![7](https://github.com/Ivan-Shkutov/devops-netology/blob/main/4.png)
 
 4. В файле README.md опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному .gitignore.
 
@@ -86,7 +86,7 @@
 
 5. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть Added gitignore.
 
-![7](https://github.com/Ivan-Sh89/devops-netology/blob/main/7.png)
+![8](https://github.com/Ivan-Shkutov/devops-netology/blob/main/8.png)
 
 
 ## Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
@@ -101,7 +101,7 @@
 
 5. Закоммитьте результат работы с комментарием Moved and deleted.
 
-![8](https://github.com/Ivan-Sh89/devops-netology/blob/main/8.png)
+![9](https://github.com/Ivan-Shkutov/devops-netology/blob/main/9.png)
 
 
 ## Проверка изменения
@@ -120,9 +120,7 @@
 
 2. Проверьте это, используя комманду git log. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
-![9](https://github.com/Ivan-Sh89/devops-netology/blob/main/9.png)
-
-![10](https://github.com/Ivan-Sh89/devops-netology/blob/main/10.png)
+![10](https://github.com/Ivan-Shkutov/devops-netology/blob/main/10.png)
 
 
 ## Отправка изменений в репозиторий
